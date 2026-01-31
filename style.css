@@ -1,0 +1,46 @@
+body {
+  background: radial-gradient(circle at top, #0a1a3a, #000814);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(10, 20, 60, 0.9);
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background: linear-gradient(90deg, #1a3cff, #00b3ff);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+tr {
+  transition: background 0.3s;
+}
+
+tr:hover {
+  background: rgba(0, 179, 255, 0.15);
+}
+
+.rating {
+  font-weight: bold;
+  color: #ffd700;
+}
